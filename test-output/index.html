@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-passed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Ballewar\AppData\Local\Temp\testng-eclipse-284964297\testng-customsuite.xml</span>
+                    <span>C:\Users\Ballewar\AppData\Local\Temp\testng-eclipse--2032539793\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Default_suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Module1_login_Test.SwagLabsTestClass1" class="method navigator-link" hash-for-method="ProductName">ProductName</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -118,12 +104,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Module1_login_Test.SwagLabsTestClass1" class="method navigator-link" hash-for-method="ClickOnAddToCart">ClickOnAddToCart</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Module2_HomePage_Test.SwagLabsTestClass2" class="method navigator-link" hash-for-method="ClickOnAddToCart">ClickOnAddToCart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Module1_login_Test.SwagLabsTestClass1" class="method navigator-link" hash-for-method="VerifyLogo">VerifyLogo</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Module2_HomePage_Test.SwagLabsTestClass2" class="method navigator-link" hash-for-method="ProductName">ProductName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Module2_HomePage_Test.SwagLabsTestClass2" class="method navigator-link" hash-for-method="VerifyLogo">VerifyLogo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -138,60 +129,10 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Module1_login_Test.SwagLabsTestClass1</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="ProductName">
-                  </a> <!-- ProductName -->
-                  <span class="method-name">ProductName</span>
-                  <div class="stack-trace">java.lang.AssertionError: Fail=Both Name are differnt expected [] but found [Sauce Labs Bike Light]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at Module1_login_Test.SwagLabsTestClass1.ProductName(SwagLabsTestClass1.java:83)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Module1_login_Test.SwagLabsTestClass1</span>
+              <span class="class-name">Module2_HomePage_Test.SwagLabsTestClass2</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -199,6 +140,13 @@
                   <a name="ClickOnAddToCart">
                   </a> <!-- ClickOnAddToCart -->
                   <span class="method-name">ClickOnAddToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ProductName">
+                  </a> <!-- ProductName -->
+                  <span class="method-name">ProductName</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -213,7 +161,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Ballewar\AppData\Local\Temp\testng-eclipse-284964297\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Ballewar\AppData\Local\Temp\testng-eclipse--2032539793\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -222,7 +170,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Module1_login_Test.SwagLabsTestClass1&quot;/&gt;
+      &lt;class name=&quot;Module2_HomePage_Test.SwagLabsTestClass2&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -265,21 +213,21 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'VerifyLogo')
-data.setCell(0, 2, 'Module1_login_Test.SwagLabsTestClass1')
-data.setCell(0, 3, 3053);
+data.setCell(0, 2, 'Module2_HomePage_Test.SwagLabsTestClass2')
+data.setCell(0, 3, 3028);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'ClickOnAddToCart')
-data.setCell(1, 2, 'Module1_login_Test.SwagLabsTestClass1')
-data.setCell(1, 3, 87);
+data.setCell(1, 1, 'ProductName')
+data.setCell(1, 2, 'Module2_HomePage_Test.SwagLabsTestClass2')
+data.setCell(1, 3, 2087);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'ProductName')
-data.setCell(2, 2, 'Module1_login_Test.SwagLabsTestClass1')
-data.setCell(2, 3, 86);
+data.setCell(2, 1, 'ClickOnAddToCart')
+data.setCell(2, 2, 'Module2_HomePage_Test.SwagLabsTestClass2')
+data.setCell(2, 3, 100);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -305,52 +253,50 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Module1_login_Test.SwagLabsTestClass1</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Module2_HomePage_Test.SwagLabsTestClass2</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">openBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">LoginPage</span>
-                <span class="method-start">7556 ms</span>
+                <span class="method-start">14564 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyLogo</span>
-                <span class="method-start">8905 ms</span>
+                <span class="method-start">15920 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">Logout([TestResult name=VerifyLogo status=SUCCESS method=SwagLabsTestClass1.VerifyLogo()[pri:1, instance:Mo...)</span>
-                <span class="method-start">11962 ms</span>
+                <span class="method-name">Logout([TestResult name=VerifyLogo status=SUCCESS method=SwagLabsTestClass2.VerifyLogo()[pri:1, instance:Mo...)</span>
+                <span class="method-start">18952 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">LoginPage</span>
-                <span class="method-start">16167 ms</span>
+                <span class="method-start">23161 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">ProductName</span>
-                <span class="method-start">17430 ms</span>
+                <span class="method-start">24466 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">Logout([TestResult name=ProductName status=FAILURE method=SwagLabsTestClass1.ProductName()[pri:2, instance:...)</span>
-                <span class="method-start">17519 ms</span>
+                <span class="method-name">Logout([TestResult name=ProductName status=SUCCESS method=SwagLabsTestClass2.ProductName()[pri:2, instance:...)</span>
+                <span class="method-start">26554 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">LoginPage</span>
-                <span class="method-start">22185 ms</span>
+                <span class="method-start">30722 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ClickOnAddToCart</span>
-                <span class="method-start">23438 ms</span>
+                <span class="method-start">32001 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">Logout([TestResult name=ClickOnAddToCart status=SUCCESS method=SwagLabsTestClass1.ClickOnAddToCart()[pri:3,...)</span>
-                <span class="method-start">23527 ms</span>
+                <span class="method-name">Logout([TestResult name=ClickOnAddToCart status=SUCCESS method=SwagLabsTestClass2.ClickOnAddToCart()[pri:3,...)</span>
+                <span class="method-start">32103 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">27714 ms</span>
+                <span class="method-start">36285 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
