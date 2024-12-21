@@ -11,6 +11,8 @@ public class SwagLabsHomePage
 
 	@FindBy(xpath = "//div[@class='app_logo']") WebElement logo;
 	@FindBy(xpath = "//button[text()='Open Menu']")private WebElement openmenu;
+	@FindBy(xpath = "(//button[text()='Add to cart'])[1]")private WebElement addtocart;
+	@FindBy(xpath = "//div[text()='Sauce Labs Bike Light']")private WebElement productName;
 	
 	public SwagLabsHomePage(WebDriver driver) 
 	{
@@ -33,7 +35,17 @@ public class SwagLabsHomePage
 		String LogoText = logo.getText();
 		return LogoText;
 		
-		
+	}
+	public String GetProductName() 
+	{
+		String ProductText = productName.getText();
+		return ProductText;
+	}
+	
+	
+	public void clickonAddtoCart() 
+	{
+		addtocart.click();
 	}
 	public void ClickOnMenu() 
 	{

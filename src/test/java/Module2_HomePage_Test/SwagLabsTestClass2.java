@@ -1,4 +1,4 @@
-package Module1_login_Test;
+package Module2_HomePage_Test;
 
 import java.io.IOException;
 
@@ -19,7 +19,7 @@ import Module1_login.SwagLabLoginPage;
 import Module1_login.SwagLabsHomePage;
 import Module1_login.SwagLabsLogoutPage;
 
-public class SwagLabsTestClass1 extends Base_Class1 
+public class SwagLabsTestClass2 extends Base_Class1 
 
 {
 	
@@ -79,7 +79,7 @@ public void LoginPage() throws EncryptedDocumentException, IOException, Interrup
 	{
 		TCID=103;
 		String actualText = s1.GetProductName();
-		String ExpText = UtilityClass.getTestData(1, 2);
+		String ExpText = UtilityClass.getTestData(1, 0);
 		Assert.assertEquals(actualText, ExpText , "Fail=Both Name are differnt");
 		Thread.sleep(2000);
 

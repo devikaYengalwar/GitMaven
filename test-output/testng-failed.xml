@@ -5,11 +5,11 @@
     <classes>
       <class name="Module1_login_Test.SwagLabsTestClass1">
         <methods>
+          <include name="ProductName"/>
           <include name="Logout"/>
           <include name="closeBrowser"/>
           <include name="openBrowser"/>
           <include name="LoginPage"/>
-          <include name="VerifyLogo"/>
         </methods>
       </class> <!-- Module1_login_Test.SwagLabsTestClass1 -->
     </classes>
